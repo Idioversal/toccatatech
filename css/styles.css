@@ -1,0 +1,99 @@
+/* GLOBAL */
+html
+{
+	background-color: white;
+	background-image: url('../images/p2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/p2.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/p2.jpg', sizingMethod='scale');
+	 
+	max-width: 100%;
+	height: auto;
+    //height:100%;
+    min-height:100%;
+
+}
+body
+{
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 16px; //1.6vw;
+	color: #7a6a53;//#333;
+	text-align: left;
+	margin: 3vw 3vw 3vw 3vw;
+
+     min-height:100%;
+
+}
+
+
+
+/* LAYOUT */
+div#page
+{
+	margin: 0 auto 0 auto;
+	width: 100%; //20vw;
+	overflow: hidden;
+}
+div#site_title
+{
+	font-family: 'Trebuchet MS', 'ABeeZee', sans-serif;
+	font-weight: normal;
+	font-size: 64px; //56px;
+	line-height: 80px;
+}
+div#primary_content
+{
+	/* ROUNDED CORNERS */
+	-moz-border-radius: 2.4vw;
+	-webkit-border-radius: 2.4vw;
+	border-radius: 2.4vw;
+	/* DROP SHADOW */
+	-moz-box-shadow: 0vw 0vw 1.4vw #000000;
+	-webkit-box-shadow: 0vw 0vw 1.4vw #000000;
+	box-shadow: 0vw 0vw 1.4vw #000000;
+	/* OTHER */
+	background-color: rgba(255,255,255,1.0);
+	padding: 4vw;
+	position: absolute;
+	display:block;
+	word-wrap: break-word;
+	/* word-wrap: none;*/
+	top: 3vw;
+	padding: 1vw 3vw 3vw 3vw;
+
+	width: 500px; //60vw; //auto; //500px //10% //60vw //auto;
+	overflow:auto;
+	text-align:left;
+	font-weight: normal;
+
+	opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+div#small
+{
+	font-size: 12px;
+	text-align:right;
+	padding: 0 20px 0 0;
+}
+
+div#page_content
+{
+	text-indent:-3.5vw;
+	padding: 0 0 0 4vw;
+}
+
+@media screen and (max-width: 1000px) 
+{
+  div#primary_content {
+    width: 80vw; /* The width is 80%, when the viewport is 1000px or smaller */
+  }
+}
+
