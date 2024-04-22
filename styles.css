@@ -95,5 +95,9 @@ div#page_content
   div#primary_content {
     width: 80vw; /* The width is 80%, when the viewport is 1000px or smaller */
   }
+  div#site_title {
+	font-size: 6px; //64px; //56px;
+	line-height: 80px;
+  }
 }
 

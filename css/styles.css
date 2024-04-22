@@ -90,10 +90,14 @@ div#page_content
 	padding: 0 0 0 4vw;
 }
 
-@media screen and (max-width: 1000px) 
+@media screen and (max-width: 600px) 
 {
   div#primary_content {
     width: 80vw; /* The width is 80%, when the viewport is 1000px or smaller */
+  }
+  div#site_title {
+	font-size: 10vw; //64px; //56px;
+	line-height: 80px;
   }
 }
 
